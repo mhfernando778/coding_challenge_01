@@ -36,3 +36,9 @@ console.log(accountBalance); // balance after dividing by 100
 
 accountBalance *= 10;
 console.log(accountBalance); // balance after multiplying by 10
+
+// Task 4: Customer Messaging //
+let customerName = "Felicia";
+let welcomeMessage = "Welcome to our store, Ms."
+
+console.log(welcomeMessage + " " + customerName); // combined both strings to form a message
