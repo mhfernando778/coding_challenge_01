@@ -21,3 +21,18 @@ console.log(productPrice); // logs the price of the product
 console.log(typeof productPrice); // logs the type: number
 console.log(isAvailable); // logs the availability status
 console.log(typeof isAvailable); // logs the type: boolean
+
+// Task 3: Financial Transactions //
+let accountBalance = 1000; // the original transaction balance
+
+accountBalance += 100;
+console.log(accountBalance); // balance after adding 100
+
+accountBalance -= 100;
+console.log(accountBalance); // balance after subtracting 100
+
+accountBalance /= 100;
+console.log(accountBalance); // balance after dividing by 100
+
+accountBalance *= 10;
+console.log(accountBalance); // balance after multiplying by 10
