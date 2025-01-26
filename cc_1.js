@@ -39,6 +39,14 @@ console.log(accountBalance); // balance after multiplying by 10
 
 // Task 4: Customer Messaging //
 let customerName = "Felicia";
-let welcomeMessage = "Welcome to our store, Ms."
+let welcomeMessage = "Welcome to our store, Ms.";
 
 console.log(welcomeMessage + " " + customerName); // combined both strings to form a message
+
+// Task 5: Access Control //
+let isLoggedIn = true; // they are logged in
+let isWorking = false; // they are not working
+
+console.log(isLoggedIn && isWorking); // are they logged in AND working? false
+console.log(isLoggedIn || isWorking); // are they logged in OR working? - true
+console.log(!isLoggedIn); // they are not logged in - false
